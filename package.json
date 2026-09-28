@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/stripsvg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strip encode/decode helpers for svg payloads in pipelines.",
+  "bin": {
+    "stripsvg": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/stripsvg.git"
+  },
+  "homepage": "https://theworker02.github.io/stripsvg/",
+  "keywords": [
+    "strip",
+    "svg",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
